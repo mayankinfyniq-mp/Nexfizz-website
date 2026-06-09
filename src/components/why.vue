@@ -81,7 +81,7 @@
 <script setup>
 import whyChooseImage from '@/assets/background/bgof3.png'
 
-import vegetarianIcon from '@/assets/img/vector.png'
+import vegetarianIcon from '@/assets/img/img89.png'
 import sugarFreeIcon from '@/assets/img/2nditem.png'
 import fssaiIcon from '@/assets/img/3rditem.png'
 </script>
