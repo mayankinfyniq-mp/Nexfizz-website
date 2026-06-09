@@ -1,7 +1,8 @@
 <template>
-  <section class="w-full bg-[#F4EFEF] overflow-hidden">
+  <section class="hidden lg:block w-full bg-[#F4EFEF] overflow-hidden">
     <div class="relative mx-auto w-full max-w-[1440px] h-[927px]">
       <img :src="benefitsBg" alt="Benefits" class="block w-auto h-full" />
+
       <div class="absolute inset-0 flex flex-col items-center justify-center">
         <div class="space-y-16">
           <div
@@ -15,6 +16,7 @@
               SWEETNERS
             </h3>
           </div>
+
           <div
             class="w-[342px] h-[206px] bg-white rounded-[32px] flex flex-col items-center justify-center"
           >
@@ -26,6 +28,7 @@
               SUPPORT
             </h3>
           </div>
+
           <div
             class="w-[342px] h-[206px] bg-white rounded-[32px] flex flex-col items-center justify-center"
           >
@@ -42,7 +45,6 @@
     </div>
   </section>
 </template>
-
 <script setup>
 import benefitsBg from '@/assets/background/benefitbg.png'
 
@@ -50,6 +52,7 @@ import sweetenerIcon from '@/assets/icons/sweetener.png'
 import hydrationIcon from '@/assets/icons/hydration.png'
 import absorptionIcon from '@/assets/icons/absorption.png'
 </script>
+
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 </style>
