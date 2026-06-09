@@ -8,7 +8,6 @@
     <sell />
     <quality />
     <advantages />
-    <why2 />
     <review />
     <ready />
     <explore />
@@ -25,7 +24,7 @@ import Why from '@/components/why.vue'
 import Sell from '@/components/sell.vue'
 import Quality from '@/components/quality.vue'
 import Advantages from '@/components/advantages.vue'
-import Why2 from '@/components/why2.vue'
+import Why from '@/components/why.vue'
 import Review from '@/components/review.vue'
 import Ready from '@/components/ready.vue'
 import Explore from '@/components/explore.vue'
